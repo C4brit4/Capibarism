@@ -1,2 +1,2 @@
-# Capibarism
-A web page for the new religion of the capibarism, where the capybaras are the center
+# C4brit4
+A page where I collect all my projects and tell my "feats"
