@@ -6,20 +6,71 @@
 
 		h3
 		{
-			color: #9E7742;
+			color: #FFF;
 			font-family: Century Gothic, fantasy;
+			text-align: center;
 		}
 
-		/*////CENTER-BOX////*/
-		div#title-box
+		p
 		{
-  			margin-left: 33%;
- 			margin-right: 33%;
-  			padding: 20px;
+			font-family: math;
+			text-align: center;
+		}
 
-  			border-color: #FFF;
+		a
+		{
+			font-family: math;
+			text-align: center;
+		}
+
+		.row
+		{
+			margin-top: 30px;
+		}
+
+		/*////DEFAULT-TEXTS////*/
+		.white-text
+		{
+			color: #FFF;
+		}
+		/*////////*/
+		
+		/*////DEFAULT-IMAGE////*/
+		.image
+		{
+			margin-top: 10px;
+
+			border-color: #FFF;
   			border-width: 4px;
   			border-style: double;
+  			box-shadow: 2px 2px 10px 3px #000, 2px 2px 0px #000;
+		}
+		/*////////*/
+
+		/*////DEFAULT-BOX////*/
+		.box
+		{
+			padding: 20px;
+			margin-left: 40px;
+			width: 300px;
+
+			border-color: #FFF;
+  			border-width: 4px;
+  			border-style: double;
+  			box-shadow: 2px 2px 10px 3px #000, 2px 2px 0px #000;
+
+  			display: inline-grid;
+    		background-color: #000;
+		}
+		/*////////*/
+
+		/*////TITLE-BOX////*/
+		div#title-box
+		{
+			display: block;
+
+  			margin-left: 33%;
+ 			margin-right: 33%;
 
     		background-image: url(images/title_bg.png);
     		background-size: cover;
@@ -30,6 +81,7 @@
 		{
 			color: #000;
   			text-align: center;
+  			text-shadow: 1px 1px 4px #FFF;
 
   			position: relative;
   			width: 100%;
@@ -37,8 +89,32 @@
 		}
 		/*////////*/
 
+		/*////CENTER-BOX////*/
+		div#center-box
+		{
+			margin-top: 30px;
+			margin-left: 33%;
+ 			margin-right: 33%;
+		}
+
+		/*////////*/
+		
 		body
 		{
 			background-image: url(https://media.moddb.com/images/mods/1/55/54944/profile/background_map.1.jpg);
 			background-size: 100%;
+		}
+
+		div#vic2-separator
+		{
+			margin-top: 50px;
+			margin-left: 33%;
+			margin-right: 33%;
+			position: center;
+		}
+
+		img#fgw-image
+		{
+			width: 100%;
+			box-shadow: 2px 2px 6px -2px #FFF;
 		}
